@@ -1,0 +1,23 @@
+{
+  "name": "@release-notes/cli",
+  "description": "CLI tool for managing 'Release Notes' - An easy to use, human readable and machine processable schema for release notes.",
+  "version": "0.0.0",
+  "author": "Alrik Zachert <alrik.zachert@gmail.com>",
+  "keywords": [
+    "release notes",
+    "release-notes",
+    "releasenotes",
+    "release",
+    "notes",
+    "changelog"
+  ],
+  "bugs": {
+    "url": "https://github.com/release-notes/release-notes-cli/issues"
+  },
+  "repository": {
+    "url": "https://github.com/release-notes/release-notes-cli"
+  },
+  "contributors": [
+    "Alrik Zachert <alrik.zachert@gmail.com>"
+  ]
+}
