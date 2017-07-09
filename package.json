@@ -11,6 +11,7 @@
     "notes",
     "changelog"
   ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/release-notes/release-notes-cli/issues"
   },
