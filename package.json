@@ -19,5 +19,13 @@
   },
   "contributors": [
     "Alrik Zachert <alrik.zachert@gmail.com>"
-  ]
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@release-notes/eslint-config": "^0.1.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.6.1"
+  }
 }
