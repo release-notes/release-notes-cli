@@ -11,6 +11,9 @@
     "notes",
     "changelog"
   ],
+  "bin": {
+    "release-notes": "./bin/release-notes.js"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/release-notes/release-notes-cli/issues"
@@ -28,5 +31,8 @@
     "@release-notes/eslint-config": "^0.1.0",
     "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.6.1"
+  },
+  "dependencies": {
+    "yargs": "^8.0.2"
   }
 }
