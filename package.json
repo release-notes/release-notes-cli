@@ -35,5 +35,8 @@
   "dependencies": {
     "@release-notes/node": "^0.2.0",
     "yargs": "^8.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
