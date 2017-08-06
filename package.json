@@ -1,7 +1,7 @@
 {
   "name": "@release-notes/cli",
   "description": "CLI tool for managing 'Release Notes' - An easy to use, human readable and machine processable schema for release notes.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Alrik Zachert <alrik.zachert@gmail.com>",
   "keywords": [
     "release notes",
