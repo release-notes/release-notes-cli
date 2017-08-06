@@ -2,6 +2,7 @@
 
 [![NPM Package](https://img.shields.io/npm/v/@release-notes/cli.svg)](https://www.npmjs.com/package/@release-notes/cli)
 [![Build Status](https://travis-ci.org/release-notes/release-notes-cli.svg?branch=master)](https://travis-ci.org/release-notes/release-notes-cli)
+[![MIT license](https://img.shields.io/github/license/release-notes/release-notes-cli.svg)](LICENSE)
 
 ## Install
 
