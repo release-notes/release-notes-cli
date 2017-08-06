@@ -1,5 +1,7 @@
 # Release Notes CLI
 
+[![Build Status](https://travis-ci.org/release-notes/release-notes-cli.svg?branch=master)](https://travis-ci.org/release-notes/release-notes-cli)
+
 ---
 
 ### LICENSE
