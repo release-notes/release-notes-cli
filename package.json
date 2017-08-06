@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.6.1"
   },
   "dependencies": {
-    "@release-notes/node": "^0.1.0",
+    "@release-notes/node": "^0.2.0",
     "yargs": "^8.0.2"
   }
 }
