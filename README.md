@@ -12,15 +12,15 @@
 
 ### Show Version
 
-`release-notes -v|--version`
+`$ release-notes -v|--version`
 
 ### Print help
 
-`release-notes -h|--help`
+`$ release-notes -h|--help`
 
 ### Validate Release Notes
 
-In order to validate a release notes file run `release-notes validate path_to_release_notes.yml`
+In order to validate a release notes file run `$ release-notes validate path_to_release_notes.yml`
 
 ---
 
