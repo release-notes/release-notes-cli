@@ -1,7 +1,7 @@
 {
   "name": "@release-notes/cli",
   "description": "CLI tool for managing 'Release Notes' - An easy to use, human readable and machine processable schema for release notes.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Alrik Zachert <alrik.zachert@gmail.com>",
   "keywords": [
     "release notes",
@@ -11,6 +11,10 @@
     "notes",
     "changelog"
   ],
+  "bin": {
+    "release-notes": "./bin/release-notes.js"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/release-notes/release-notes-cli/issues"
   },
@@ -19,5 +23,20 @@
   },
   "contributors": [
     "Alrik Zachert <alrik.zachert@gmail.com>"
-  ]
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@release-notes/eslint-config": "^0.1.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.6.1"
+  },
+  "dependencies": {
+    "@release-notes/node": "^0.2.0",
+    "yargs": "^8.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

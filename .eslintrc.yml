@@ -1,0 +1,11 @@
+extends: "@release-notes"
+
+plugins:
+- import
+
+env:
+  node: true
+  es6: true
+
+parserOptions:
+  sourceType: script
