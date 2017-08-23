@@ -4,6 +4,10 @@ description: >
   an easy to use, human readable and machine processable schema for release notes.
 
 releases:
+- version: Next
+  added:
+  - Abstract converter command in order to ease implemenation of 3rd party convertes.
+  - Introduce json converter. (release-notes/release-notes-cli#4)
 - version: 0.1.0
   date: 2017-08-06T22:55:00Z
   title: First Release
