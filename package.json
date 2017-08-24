@@ -28,9 +28,9 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@release-notes/eslint-config": "^0.1.0",
-    "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.6.1"
+    "@release-notes/eslint-config": "^1.0.0",
+    "eslint": "^4.5.0",
+    "eslint-plugin-import": "^2.7.0"
   },
   "dependencies": {
     "@release-notes/node": "^0.2.0",
