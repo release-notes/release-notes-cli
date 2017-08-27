@@ -25,12 +25,16 @@
     "Alrik Zachert <alrik.zachert@gmail.com>"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "mocha"
   },
   "devDependencies": {
     "@release-notes/eslint-config": "^1.0.0",
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
     "eslint": "^4.5.0",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.5.0"
   },
   "dependencies": {
     "@release-notes/node": "^0.2.0",

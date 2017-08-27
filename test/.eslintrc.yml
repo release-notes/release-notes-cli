@@ -1,0 +1,9 @@
+extends: "../.eslintrc.yml"
+
+globals:
+  describe: true
+  it: true
+
+rules:
+  arrow-body-style: 0
+  import/no-extraneous-dependencies: 0
