@@ -32,6 +32,16 @@ release notes following the [Release Notes Specification](https://github.com/rel
 
 In order to validate a release notes file run `$ release-notes validate path_to_release_notes.yml`
 
+### Convert Release Notes
+
+The following command converts the `release-notes.yml` file in the cwd to json and writes it to stdout.
+
+`$ release-notes convert -t json`
+
+In order to print all released versions defined in a release-notes file run:
+
+`$ bin/release-notes.js convert -t json | jq .releases[].version`
+
 ---
 
 ### LICENSE
