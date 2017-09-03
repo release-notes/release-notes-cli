@@ -10,9 +10,6 @@ describe('validate', () => {
   it('should succeed when valid file is specified', () => {
     return assert.isFulfilled(run(`validate ${releaseNotes1.yamlPath}`));
   });
-  /* it('should fail when no file is specified but file is invalid', () => {
-    return assert.isFulfilled(run('validate'));
-  }); */
   it('should fail when non existent file is specified', () => {
     return assert.isRejected(run('validate ./release-notes-invalid.yml'));
   });
