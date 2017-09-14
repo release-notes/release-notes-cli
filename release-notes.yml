@@ -8,6 +8,8 @@ releases:
   added:
   - Abstract converter command in order to ease implemenation of 3rd party convertes.
   - Introduce json converter. (release-notes/release-notes-cli#4)
+  changed:
+  - The command will fail when no or an invalid argument is given. (#9)
 - version: 0.1.0
   date: 2017-08-06T22:55:00Z
   title: First Release
