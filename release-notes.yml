@@ -8,6 +8,7 @@ releases:
   added:
   - Abstract converter command in order to ease implemenation of 3rd party convertes.
   - Introduce json converter. (release-notes/release-notes-cli#4)
+  - Add -f alias for file parameter on convert and validate subcommands.
   changed:
   - The command will fail when no or an invalid argument is given. (#9)
 - version: 0.1.0
