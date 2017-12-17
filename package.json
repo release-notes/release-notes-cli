@@ -37,7 +37,8 @@
     "mocha": "^3.5.3"
   },
   "dependencies": {
-    "@release-notes/node": "^0.2.0",
+    "@release-notes/changelog-parser": "^0.1.1",
+    "@release-notes/node": "^0.3.0",
     "yargs": "^8.0.2"
   },
   "publishConfig": {
