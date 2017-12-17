@@ -41,7 +41,15 @@ The following command converts the `release-notes.yml` file in the cwd to json a
 
 In order to print all released versions defined in a release-notes file run:
 
-`$ bin/release-notes.js convert -t json | jq .releases[].version`
+`$ release-notes convert -t json | jq .releases[].version`
+
+The convert command can also read markdown files like _CHANGELOG.md_ or _HISTORY.md_.
+
+`$ release-notes convert -t json CHANGELOG.md` 
+
+How to convert a CHANGELOG.md to a release-notes.yml file?
+
+`$ release-notes convert -t release-notes CHANGELOG.md > release-notes.yml` 
 
 ---
 
