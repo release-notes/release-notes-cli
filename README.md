@@ -33,7 +33,11 @@ release notes following the [Release Notes Specification](https://github.com/rel
 
 If you want to initialize a new `release-notes.yml` file:
 
-`$ release-notes init --title 'Release notes of an awesome project.' --description 'You can pass multiple lines of description' -d 'This is a second line of description'`
+```bash
+$ release-notes init --title 'Release notes of an awesome project.' \
+    --description 'You can pass multiple lines of description' \
+    -d 'This is a second line of description'
+```
 
 You could also convert an existing CHANGELOG.md file into a `release-notes.yml` definition:
 
