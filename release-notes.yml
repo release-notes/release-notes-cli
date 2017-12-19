@@ -13,6 +13,7 @@ releases:
   - Introduce markdown reader in convert command [#14](https://github.com/release-notes/release-notes-cli/issues/14).
   changed:
   - The command will fail when no or an invalid argument is given. (#9)
+  - Remove `--version|-v` parameter from subcommands - it's now only awailable on root command.
 - version: 0.1.0
   date: 2017-08-06T22:55:00Z
   title: First Release
