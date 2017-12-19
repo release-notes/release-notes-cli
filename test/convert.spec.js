@@ -31,4 +31,11 @@ describe('convert', () => {
       return assert.eventually.deepEqual(json, releaseNotes1.jsonData);
     });
   });
+
+  describe('md', () => {
+    it('should convert to JSON and write to stdout', () => {
+      const json = run(`convert ${releaseNotes1.mdPath} -t json`).then(text => JSON.parse(text));
+      return assert.eventually.deepEqual(json, releaseNotes1.jsonData);
+    });
+  });
 });
