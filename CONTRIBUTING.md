@@ -2,7 +2,7 @@
 
 :sparkles::tada: Many thanks for contributing! :tada::sparkles:
 
-## LT;DR
+## TL;DR
 
 * Our mission is to build the best tooling around standardized release notes management.
 * Any contribution is welcome.

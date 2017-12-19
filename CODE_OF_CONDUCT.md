@@ -1,6 +1,6 @@
 # Contributor Covenant Code of Conduct
 
-## LT;DR
+## TL;DR
 
 * Everyone is welcome to be part of our community.
 * Be nice and respectful to each other.
