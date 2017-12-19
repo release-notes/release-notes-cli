@@ -14,7 +14,7 @@ describe('validate', () => {
     return assert.isRejected(run('validate ./release-notes-invalid.yml'));
   });
   it('should fail when invalid file is specified', () => {
-    return assert.isRejected(run('validate ./test/assets/release-notes1.json'));
+    return assert.isRejected(run('validate ./test/assets/release-notes1.md'));
   });
   it('should fail when invalid yaml file is specified', () => {
     return assert.isRejected(run('validate ./test/assets/invalid-yaml.yml'));
