@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@release-notes/changelog-parser@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@release-notes/changelog-parser/-/changelog-parser-0.1.1.tgz#0b1277f1c5e41f95d593dd62c32fac8a86d8d9cb"
+"@release-notes/changelog-parser@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@release-notes/changelog-parser/-/changelog-parser-0.1.2.tgz#15fe8ae9b103b4890e370b1a5a2f0e735d992667"
   dependencies:
     "@release-notes/node" "^0.3.0"
 
