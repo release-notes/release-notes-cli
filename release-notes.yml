@@ -18,6 +18,7 @@ releases:
   changed:
   - The command will fail when no or an invalid argument is given. (#9)
   - Remove `--version|-v` parameter from subcommands - it's now only awailable on root command.
+  - Upgrade dependencies `yargs@8.0.2` to `yargs@10.0.3`.
 - version: 0.1.0
   date: 2017-08-06T22:55:00Z
   title: First Release
