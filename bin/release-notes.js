@@ -7,6 +7,7 @@ const Program = require('../lib/Program');
 const ConvertCommand = require('../lib/commands/ConvertCommand');
 const HelpCommand = require('../lib/commands/HelpCommand');
 const InitCommand = require('../lib/commands/InitCommand');
+const PublishCommand = require('../lib/commands/PublishCommand');
 const ValidateCommand = require('../lib/commands/ValidateCommand');
 const VersionCommand = require('../lib/commands/VersionCommand');
 
@@ -19,5 +20,6 @@ program
   .addCommand(new InitCommand())
   .addCommand(new ConvertCommand())
   .addCommand(new ValidateCommand())
+  .addCommand(new PublishCommand())
   .run()
 ;
