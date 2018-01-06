@@ -9,9 +9,13 @@ script:
 - npm run lint
 - npm run test
 deploy:
-  provider: npm
-  email: az@kreatiefer.de
-  api_key:
-    secure: CDY6H20siCvZJukKGF8GE2HxNLYxrEPhOtt93F5H4PkbpWqkf1GYqwLsaKMgghDzZf1omstr96vfFvEeI/x8hekfg8qLBW2qSlwirhgpqB+oTE8Bc6gk/zq7ugU4pxik7g9Pl+eQhYSO4Xzj9V889Gxi/51HH0ciy7enHX5AUotNc1D9C/UzRe4GXcqIy4iRGxE+ChJnUW0v/zSuGZZnqUrpmJeEzVJiSc29s+TMdd630JR0Cp4WkLxlBHH0Dj3x72603UrS9NjzBxyCZJGV5Bi73rjUbTzOZX5ubh7pjN6UFJyI/yqzWqB7Vvc/kYcWeIXGaFuvGfvQPy2REG8zc31ZHvjKqsSAiceFL29e5LLaWs76L1RngVcM2CqDskjOGpYq1qj/QasAjog1JrW36uPrdrhhVaiysP3ieW810qnLS8kuLFXO//H8tpLsNCbBsnQGV3+RlYRmviLW51/xZA5wa0+ANMvOwdH3yEsToyNHztEr3zRy9FlXLkCMbhBUJ+jZWPczdDXKugVRS78RUg3LNTBQGROeG5czDSThSlrwHjRCZCdirARROtbUE5DQcPL85sBSehJty1AnTNnqNdzGTDB5Ioh/A2869KPnR/zThRlE73GNsBVONvjAqOTtldKABsX9gPJ1qY54XlPTxOSjGl5l0bIqS9r3VXHdw/0=
-  on:
-    tags: true
+  - provider: script
+    script: ./bin/release-notes.js publish
+    on:
+      branch: develop
+  - provider: npm
+    email: az@kreatiefer.de
+    api_key:
+      secure: CDY6H20siCvZJukKGF8GE2HxNLYxrEPhOtt93F5H4PkbpWqkf1GYqwLsaKMgghDzZf1omstr96vfFvEeI/x8hekfg8qLBW2qSlwirhgpqB+oTE8Bc6gk/zq7ugU4pxik7g9Pl+eQhYSO4Xzj9V889Gxi/51HH0ciy7enHX5AUotNc1D9C/UzRe4GXcqIy4iRGxE+ChJnUW0v/zSuGZZnqUrpmJeEzVJiSc29s+TMdd630JR0Cp4WkLxlBHH0Dj3x72603UrS9NjzBxyCZJGV5Bi73rjUbTzOZX5ubh7pjN6UFJyI/yqzWqB7Vvc/kYcWeIXGaFuvGfvQPy2REG8zc31ZHvjKqsSAiceFL29e5LLaWs76L1RngVcM2CqDskjOGpYq1qj/QasAjog1JrW36uPrdrhhVaiysP3ieW810qnLS8kuLFXO//H8tpLsNCbBsnQGV3+RlYRmviLW51/xZA5wa0+ANMvOwdH3yEsToyNHztEr3zRy9FlXLkCMbhBUJ+jZWPczdDXKugVRS78RUg3LNTBQGROeG5czDSThSlrwHjRCZCdirARROtbUE5DQcPL85sBSehJty1AnTNnqNdzGTDB5Ioh/A2869KPnR/zThRlE73GNsBVONvjAqOTtldKABsX9gPJ1qY54XlPTxOSjGl5l0bIqS9r3VXHdw/0=
+    on:
+      tags: true
