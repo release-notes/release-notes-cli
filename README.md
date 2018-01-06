@@ -65,6 +65,28 @@ How to convert a CHANGELOG.md to a release-notes.yml file?
 
 `$ release-notes convert -t release-notes CHANGELOG.md > release-notes.yml` 
 
+### Publish Release Notes
+
+In order to publish some release notes to the release notes hub run:
+
+```bash
+$ release-notes publish \
+    --scope my-user-name \
+    --name some-package-name \
+    --token PMxU6hEiLQPdoGkKy8rij1qsgrQmplk5gvWdJWubrNg= \
+    [[--file] ./release-notes.yml]
+```
+This would publish the content of your ./release-notes.yml definition to https://release-notes.com/@my-user-name/some-package-name.
+
+You can also pass the parameters via environment variables, which may be handy.
+
+Parameter  | Environment variable | Description
+:----------|:---------------------|:-----------
+--scope, -s | RELEASE_NOTES_SCOPE | Your release-notes hub username
+--name, -n | RELEASE_NOTES_NAME | Your release notes handle (only numbers, letters and dashes)
+--file, -f | RELEASE_NOTES_FILE | Path to your release notes definition (default _./release-notes.yml_)
+--token, -t | RELEASE_NOTES_TOKEN | Your release-notes api token see (https://release-notes.com/auth-tokens)
+
 ---
 
 ### LICENSE
