@@ -11,6 +11,7 @@ script:
 - npm run test
 deploy:
   - provider: script
+    skip_cleanup: true
     script: ./bin/release-notes.js publish
     on:
       branch: develop
