@@ -17,7 +17,8 @@ release notes following the [Release Notes Specification](https://github.com/rel
 
 ## Install
 
-`$ npm i -g release-notes/cli`
+`$ npm i -g @release-notes/cli`
+`$ yarn global add @release-notes/cli`
 
 ## Usage
 
