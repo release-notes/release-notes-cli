@@ -43,6 +43,9 @@
     "request": "^2.83.0",
     "yargs": "^10.0.3"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "publishConfig": {
     "access": "public"
   }
