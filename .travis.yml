@@ -19,6 +19,8 @@ jobs:
       provider: npm
       email: az@kreatiefer.de
       api_key: $NPM_API_KEY
+      on:
+        tags: true
   - stage: deploy
     if: branch = develop
     node_js: "8"
@@ -27,3 +29,5 @@ jobs:
       provider: script
       skip_cleanup: true
       script: ./bin/release-notes.js publish
+      on:
+        branch: develop
