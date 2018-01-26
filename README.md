@@ -66,6 +66,10 @@ How to convert a CHANGELOG.md to a release-notes.yml file?
 
 `$ release-notes convert -t release-notes CHANGELOG.md > release-notes.yml` 
 
+The other way around? Convert a release-notes.yml file to a CHANGELOG.md:
+
+`$ release-notes convert -t changelog release-notes.yml > CHANGELOG.md` 
+
 ### Publish Release Notes
 
 In order to publish some release notes to the release notes hub run:
