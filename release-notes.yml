@@ -5,6 +5,14 @@ description: >
   https://release-notes.com
 
 releases:
+- version: 0.3.0
+  date: 2018-01-31T10:43:49Z
+  title: Automated Release Notes Publishing
+  description: Improve changelog support and integrate the api.
+  added:
+  - Add support for publishing release notes from the CLI. [#17](https://github.com/release-notes/release-notes-cli/issues/17)
+  - Integrate auto publish of release notes to our CI pipeline.
+  - Introduce conversion type changelog for generating keepachangelog style CHANGELOG.md's. [#8](https://github.com/release-notes/release-notes-cli/issues/8)
 - version: 0.2.0
   date: 2017-12-19T12:40:20Z
   description: Convert release notes into json and read CHANGELOG.md's
