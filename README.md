@@ -37,6 +37,8 @@ Options:
   --help, -h     Show help
 ```
 
+---
+
 ### Initialize Release Notes
 
 ```bash
@@ -59,6 +61,8 @@ $ release-notes init --title 'Release notes of an awesome project.' \
     -d 'You can pass multiple lines of description' \
     -d 'This is a second line of description'
 ```
+
+---
 
 ### Convert Release Notes
 
@@ -102,6 +106,8 @@ $ release-notes convert -t json | jq .releases[].version
 $ release-notes convert -t json path-to/CHANGELOG.md | jq .releases[].version
 ```
 
+---
+
 ### Validate Release Notes
 
 ```bash
@@ -121,6 +127,7 @@ $ release-notes validate
 
 The command will exit with code 0 on success. Any other exit code can be treated as failure.
 
+---
 
 ### Publish Release Notes
 
@@ -135,9 +142,9 @@ $ release-notes publish \
     --scope my-user-name \
     --name some-package-name \
     --token PMxU6hEiLQPdoGkKy8rij1qsgrQmplk5gvWdJWubrNg= \
-    [[--file] ./release-notes.yml]
+    ./CHANGELOG.md
 ```
-This would publish the content of your ./release-notes.yml definition to https://release-notes.com/@my-user-name/some-package-name.
+This would publish your ./CHANGELOG.md definition to https://release-notes.com/@my-user-name/some-package-name.
 
 You can also pass the parameters via environment variables, which may be handy.
 
